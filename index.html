@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title> Conversor de Temperaturas </title>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <form name="convert">
+
+        <p>Fahrenheit:<input type="text" name="ftemp" size="7" onchange="convertTemp('ftoc')"></p>
+
+        <p>Celsius:<input type="text" name="ctemp" size="7" onchange="convertTemp('ctof')"></p>
+
+        <p>Kelvin:<input type="text" name="ktemp" size="7" onchange="convertTemp('ktof')"></p>
+
+        <p>Rankine:<input type="text" name="rtemp" size="7" onchange="convertTemp('rtof')"></p>
+
+        <br /><br />
+        <input type="button" value="limpar" onclick="clearAll();">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+main{
+    margin: 0 auto;
+}
+form{
+    border: 1px double blue; 
+    background-color: #DDF;
+	padding: 4px;
+    text-align:center;
+    margin: 15% 40% 0 40%;
+}
